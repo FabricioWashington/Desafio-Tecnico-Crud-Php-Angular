@@ -6,6 +6,8 @@ Este é um projeto backend desenvolvido em Laravel para gerenciar categorias e t
 
 Requisitos
 
+Angular CLI 18.2.12
+
 PHP >= 8.3
 
 Composer >= 2.8.3
