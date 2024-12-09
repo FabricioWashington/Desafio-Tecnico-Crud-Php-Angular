@@ -1,0 +1,28 @@
+mat-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.example-spacer {
+  flex: 1; /* Garante que o título centralize */
+}
+
+mat-raised-button {
+  margin: 0 16px; /* Espaçamento adequado entre os botões */
+  font-size: 1rem; /* Ajusta o tamanho do texto */
+  padding: 8px 16px; /* Adiciona padding adequado para aumentar o tamanho do botão */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.title {
+  font-size: 1.4rem; /* Tamanho do título */
+  font-weight: bold; /* Título em negrito */
+  margin-left: 32px; /* Espaçamento para garantir que o título não fique tão colado aos botões */
+  margin-right: 32px; /* Espaçamento para os botões não ficarem tão colados ao título */
+}
+
+.toolbar-button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Cor de fundo ao passar o mouse */
+  color: #ffffff; /* Cor do texto ao passar o mouse */
+}

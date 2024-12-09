@@ -1,0 +1,34 @@
+<div class="formulario">
+  <mat-card>
+
+    <mat-card-header class="label-name">
+      <mat-card-title>Formulário de Categorias</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+
+      <form [formGroup]="form" (ngSubmit)="addCategory()">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Categoria</mat-label>
+          <input matInput formControlName="nome" placeholder="Categoria">
+        </mat-form-field>
+        <mat-card-actions>
+          <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">Adicionar</button>
+        </mat-card-actions>
+      </form>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-content>
+      <h3>Categorias</h3>
+      <mat-list>
+        <mat-list-item *ngFor="let categoria of categorias$">
+          {{ categoria.nome }}
+          <button mat-button color="warn" (click)="deleteCategory(categoria.id)">Excluir</button>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+</div>
+

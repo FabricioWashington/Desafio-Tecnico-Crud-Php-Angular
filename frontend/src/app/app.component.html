@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <!-- Botão para Categorias -->
+  <button mat-raised-button aria-label="Categorias" (click)="navigateTo('/categories')" class="toolbar-button">
+    Categorias
+  </button>
+
+  <!-- Título FinancesApp -->
+  <span class="title">FinancesApp</span>
+
+  <!-- Botão para Transações -->
+  <button mat-raised-button aria-label="Transações" (click)="navigateTo('/transactions')" class="toolbar-button">
+    Transações
+  </button>
+</mat-toolbar>
+
+<!-- Área de Renderização do Componente -->
+<router-outlet></router-outlet>

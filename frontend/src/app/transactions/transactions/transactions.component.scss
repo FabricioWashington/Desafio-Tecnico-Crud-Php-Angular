@@ -1,0 +1,103 @@
+.mat-toolbar{
+  margin-top: 50px;
+}
+
+.buttons{
+  margin-right: 10px;
+  }
+
+
+.mat-form-field {
+  margin-right: 10px;
+}
+
+.mat-card{
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+ }
+ .label-name{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 10px;
+ padding: 10px;
+ }
+
+ .full-width{
+     width: 100%;
+ }
+
+.formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+}
+
+ .mat-form-field{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+ }
+
+ .field-valor{
+  margin-right: 10px;
+  margin-left: 10px
+ }
+
+ .field-tipo{
+  margin-right: 10px;
+ }
+
+.field-descricao{
+  width: 350px;
+}
+
+.mat-elevation-z8 {
+  overflow-x: auto;
+}
+
+.field-categorias{
+  margin-right: 10px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.filtros {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-container {
+  border: none;
+  box-shadow: none;
+}
+
+.min-width{
+  border: none;
+  box-shadow: none;
+}
+

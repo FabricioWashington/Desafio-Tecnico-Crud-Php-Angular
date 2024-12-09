@@ -1,0 +1,43 @@
+.formulario{
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 150px;
+}
+
+.mat-card{
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+ }
+
+ .label-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  }
+
+  .full-width{
+      width: 100%;
+  }
+
+  .buttons{
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+
+  .min-width{
+      width: 100%;
+      min-width: 150px;
+  }
+
+  .list{
+    margin-top: 10px;
+  }
